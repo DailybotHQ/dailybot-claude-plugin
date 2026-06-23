@@ -18,13 +18,16 @@ This plugin gives Claude Code five capabilities for team collaboration through D
 
 ## Install
 
-From Claude Code:
+From inside Claude Code, register the DailyBot marketplace once and install the plugin:
 
 ```
-/plugin install dailybot@claude-plugins-official
+/plugin marketplace add DailyBotHQ/dailybot-claude-plugin
+/plugin install dailybot@dailybot
 ```
 
-Or test locally during development:
+The first command tells Claude Code to trust this repository as a plugin source. The second installs the `dailybot` plugin from that marketplace. From then on you can update with `/plugin update dailybot@dailybot`.
+
+Or test locally during development without registering a marketplace:
 
 ```bash
 claude --plugin-dir ./path/to/dailybot-claude-plugin
