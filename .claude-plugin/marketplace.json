@@ -1,0 +1,24 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "dailybot",
+  "description": "DailyBot plugin marketplace for Claude Code — connect your agent to your team.",
+  "owner": {
+    "name": "Dailybot",
+    "url": "https://www.dailybot.com"
+  },
+  "plugins": [
+    {
+      "name": "dailybot",
+      "description": "Connect Claude Code to your team via Dailybot — report progress, check messages, send emails, and announce agent status. Works on any project, even if you don't have a Dailybot account yet.",
+      "author": {
+        "name": "Dailybot",
+        "url": "https://www.dailybot.com"
+      },
+      "homepage": "https://github.com/DailyBotHQ/dailybot-claude-plugin",
+      "source": {
+        "source": "github",
+        "repo": "DailyBotHQ/dailybot-claude-plugin"
+      }
+    }
+  ]
+}
